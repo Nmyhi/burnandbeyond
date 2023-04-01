@@ -18,16 +18,23 @@ h1,h2 {
     color: #919191;
 }
 
-footer {
-    height: 150px;
-}
-
-#logo {
+header {
+    width: 100%;
+    display: block;
     float: left;
 }
 
-#menu {
-    line-height: 3em;
+footer {
+    height: 150px;
+    display: block;
+}
+
+header {
+    line-height: 30px;
+}
+
+#logo {
+   float: left; 
 }
 
 #menu a {
@@ -54,4 +61,10 @@ footer {
         margin: 1%;
         padding: 5%;
         color: #919191;
+}
+
+#logo {
+    background-image: url(../assets/images/logo.png);
+    width: auto;
+    height: auto;
 }
