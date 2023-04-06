@@ -32,6 +32,7 @@ h1,h2 {
 .quote-link {
     text-align:center;
     margin: 10px;
+    display:block;
 }
 
 .quote-link a {
@@ -85,27 +86,27 @@ header {
 /*styling the footer section*/
 footer {
     height: 150px;
-    display: block;
-    clear: both;
+    display: inline;
     margin: 70px;
+    
+ 
 }
 /*footer links styling*/
 #social-links {
     text-align: center;
-    height: 150px;
-
+    position:relative;
+   
+    margin: inherit;
 }
     
 #social-links li {
         display: inline;
         padding: 5%;   
-           
 }
     
 #social-links i {
         font-size: 160%;
         text-align: center;
-        clear: both;
         color: #5E5E5E;
 }
 
