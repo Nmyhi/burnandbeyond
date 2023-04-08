@@ -140,3 +140,15 @@ footer {
     height: 25px;
     
 }
+
+.gallery {
+    column-count: 3;
+    clear: both;
+    line-height: 1.5;
+    column-gap: 5px;
+    
+}
+
+.gallery img {
+    width: 100%;
+}
