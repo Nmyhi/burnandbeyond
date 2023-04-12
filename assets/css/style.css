@@ -25,14 +25,20 @@ h1,h2 {
     width: 100%;
     text-align: center;
     border: #c9c3c3 solid 1px;
-    margin: 0 auto;
+   
+    
+    
+  
     display: block;
     color: #5E5E5E;
     position: relative;
 }
 
+.infobox {
+    padding: 20px 0 20px 0;
+}
 .quote-link {
-    text-align:center;
+    text-align: center;
     margin: 10px;
     display: block;
 }
@@ -45,21 +51,23 @@ h1,h2 {
 
 .quote-link a:hover {
     color: #b1b1b1;
-    text-decoration: underline;
+    
 }
 /*styling the header section*/
 header {
     width: 100%;
     display: block;
-    float: left;
     line-height: 50px;
+    position: absolute;
+    z-index: 3;
+    background-color: #5E5E5E20
 }
 
 #logo {
     max-width: 120px;
     height: auto;
     display: block;
-    float:left; 
+    float: left; 
 }
 
 #logo img {
@@ -84,6 +92,7 @@ header {
     list-style-type: none;
     float: right;
     margin-right: 20px;
+    display: inline;
 }
 
 #frontvideo {
@@ -91,6 +100,8 @@ header {
     height: 100%;
     position: relative;
     z-index: 1;
+    
+
 
 }
 #toptext {
@@ -101,6 +112,17 @@ header {
     color: inherit;
     top: 50%;
     width: 100%;
+ }
+
+ #intheknow {
+    text-align: left;
+    clear: right;
+    padding: 20px;
+    display: block;
+    
+    
+    
+    
  }
 
 /*styling the footer section*/
