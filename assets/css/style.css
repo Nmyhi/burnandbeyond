@@ -60,7 +60,7 @@ header {
     line-height: 50px;
     position: absolute;
     z-index: 3;
-    background-color: #5E5E5E20
+    background-color: #5E5E5E80
 }
 
 #logo {
@@ -157,21 +157,22 @@ footer {
 }
 
 .form-box {
-    background-color: #5E5E5E;
+    background-color: inherit;
     background-size: cover;
     height: 1000px;
     clear: left;
-    
+    background-image: url("/assets/images/contactformbackground.jpg");   
 }
 
 .quotation {
     padding: 100px;
     height: 200px;
     width: 500px;
-    background-color: #303030;
+    background-color: #2e2d2d;
     margin: 150px 50px 50px 150px;
     position: absolute;
     border-radius: 10px;
+    border: 1px solid #c9c3c3;
 }
 
 .input-text {
