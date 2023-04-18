@@ -32,7 +32,7 @@ header {
 }
 
 button {
-width: 100px;
+width: auto;
 height: 50px;
 border: 1px solid #303030;
 border-radius: 15px;
@@ -44,21 +44,28 @@ opacity: 0.5;
 button a {
     text-decoration: none;
     color: inherit;
+    font-size: 1.5em;
+    
 }
 
 /*classes*/
 .box {
     width: 100%;
     text-align: center;
-    border: #c9c3c3 solid 1px;
+    border: ;
     display: block;
     color: #5E5E5E;
     position: relative;
+    
 }
 
 .box img {
     display: inline;
     width: 33%;
+    margin: 20px;
+    border-radius: 40px;
+    border: #919191 1px solid;
+    
     
 }
 
