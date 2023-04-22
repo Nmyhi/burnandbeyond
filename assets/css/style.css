@@ -21,6 +21,21 @@ h1,h2 {
     letter-spacing: 4px;
     color: #a6ebfc;
 }
+
+p {
+    padding: 5%;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    position: relative;
+
+
+}
+
 header {
     width: 100%;
     display: block;
@@ -32,57 +47,65 @@ header {
 }
 
 button {
-width: auto;
-height: 50px;
-border: 1px solid #303030;
-border-radius: 15px;
-text-align: center;
-opacity: 0.5;
+    width: auto;
+    height: auto;
+    border: 1px solid #303030;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0.5;
+    padding: 2%;
 }
 
 button a {
     text-decoration: none;
     color: inherit;
-    font-size: 1.5em;
-    
+    font-size: 1.5em;    
 }
 
-textarea {
-  height: 25%;
-  width: 100%;
-  padding: 12px 20px;
-  border: 2px solid #5E5E5E;
-  border-radius: 4px;
-  background-color: inherit;
-  font-size: 16px;
-  resize: none;
+button input {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5em; 
+}
+
+button input:hover {
+    color: #a6ebfc;
+}
+
+
+textarea  {
+    height: 25%;
+    width: 100%;
+    border: 2px solid #5E5E5E;
+    border-radius: 4px;
+    background-color: inherit;
+    resize: none;
+    margin: 2%;
 }
 
 /*classes*/
+/*standard div style*/
 .box {
     width: 100%;
     text-align: center;
     display: block;
     color: inherit;
     position: relative;
-    
+    margin-bottom: 5%;
 }
-
+/*images in the standard div styling*/
 .box img {
     display: inline;
-    width: 33%;
-    margin: 20px;
-    border-radius: 40px;
+    width: 25%;
+    margin: 1%;
+    border-radius: 5%;
     border: #919191 1px solid;  
 }
-
+/*list items inside standard divs*/
 .box li {
     list-style: none;
 }
 
-.infobox {
-    padding: 50px 0 50px 0;
-}
 .quote-link {
     text-align: center;
     margin: 10px;
@@ -96,7 +119,7 @@ textarea {
 }
 
 .quote-link a:hover {
-    color: #b1b1b1;
+    color: #a6ebfc;
     
 }
 /*id stles*/
@@ -161,10 +184,7 @@ textarea {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    
-    
-
-    
+    text-align: left;
  }
 
 /*styling the footer section*/
@@ -195,7 +215,7 @@ footer {
 }
 
 #social-links i:hover {
-    color: #919191;
+    color: #a6ebfc;
 }
 
 .form-box {
@@ -207,22 +227,23 @@ footer {
 }
 
 .quotation {
-    padding: 100px;
-    height: 40%;
+    padding: 10%;
+    height: 50%;
     width: 50%;
     background-color: #2e2d2d;
-    margin: 150px 50px 50px 150px;
+    margin: 5% 5% 5% 5%;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 3%;
     border: 1px solid #c9c3c3;
+    display: absolute;
 }
 
 .input-text {
-    margin: 10px;
+    margin: 2%;
     border: black solid 1px;
     display: block;
     width: 50%;
-    height: 25px;
+    height: 10%;
     
 }
 
