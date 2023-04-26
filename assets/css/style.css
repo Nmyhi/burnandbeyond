@@ -12,6 +12,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     background-color: #303030;
+    background-image: url("/assets/images/bodybackground.jpg")
 }
 /*main elements stylings*/
 
@@ -20,10 +21,17 @@ h1,h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #a6ebfc;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 p {
-    padding: 5%;
+    padding: 1.1%;
 }
 
 textarea {
@@ -53,7 +61,8 @@ button {
     border-radius: 15px;
     text-align: center;
     opacity: 0.5;
-    padding: 2%;
+    padding: 1.2%;
+    color: white;
 }
 
 button a {
@@ -91,7 +100,7 @@ textarea  {
     display: block;
     color: inherit;
     position: relative;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 /*images in the standard div styling*/
 .box img {
@@ -99,7 +108,7 @@ textarea  {
     width: 25%;
     margin: 1%;
     border-radius: 5%;
-    border: #919191 1px solid;  
+    border: #919191 3px solid;  
 }
 /*list items inside standard divs*/
 .box li {
@@ -185,7 +194,20 @@ textarea  {
     background-position: center;
     background-attachment: fixed;
     text-align: left;
+    
  }
+
+ #materials ul {
+    margin-left: 2%;
+ }
+
+ #materials li {
+    margin-left: 1.1%;
+ }
+
+ #material-list-styling {
+    margin: 2% 0 2% 10%;
+}
 
 /*styling the footer section*/
 footer {
@@ -193,7 +215,6 @@ footer {
     display: inline;
     margin: 70px;
     position: relative;
-
     
  
 }
