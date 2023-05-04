@@ -7,12 +7,21 @@
     border: 0;
 }   
 
+#frontvideo {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+
+}
+
 /*adding the general font style and color to the body*/
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     background-color: #303030;
-    background-image: url("/assets/images/bodybackground.jpg")
+    background-image: url("/assets/images/bodybackground.jpg");
+    z-index: 0;
 }
 /*main elements stylings*/
 
@@ -109,18 +118,16 @@ textarea  {
     width: 25%;
     margin: 1%;
     border-radius: 5%;
-    border: #919191 3px solid;  
+    border: #919191 3px solid; 
+    position: relative; 
 }
 /*list items inside standard divs*/
 .box li {
     list-style: none;
+    padding: 1%;
     
 }
 
-.project-border {
-    border: 1px solid #303030;
-    padding: 2%;
-}
 
 .quote-link {
     text-align: center;
@@ -142,8 +149,9 @@ textarea  {
 .dark-overlay {
     background-color: #2e2d2d;
     opacity: 0.5;
-    
+    margin: 0 2% 0 2%; 
 }
+
 /*id stles*/
 #logo {
     max-width: 120px;
@@ -173,17 +181,12 @@ textarea  {
 #menu li {
     list-style-type: none;
     float: right;
-    margin-right: 20px;
+    margin-right: 1%;
     display: inline;
+    font-family: "Oxygen", sans-serif;
 }
 
-#frontvideo {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
 
-}
 
 #toptext {
     position: absolute;
@@ -216,6 +219,7 @@ textarea  {
 
  #materials li {
     margin-left: 1.1%;
+    padding: 0;
  }
 
  #material-list-styling {
@@ -270,13 +274,14 @@ footer {
     border-radius: 3%;
     border: 1px solid #c9c3c3;
     display: absolute;
+    top: 10%;
 }
 
 .input-text {
     margin: 2%;
     border: black solid 1px;
     display: block;
-    width: 50%;
+    width: 75%;
     height: 10%;
     
 }
