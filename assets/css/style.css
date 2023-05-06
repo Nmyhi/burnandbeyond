@@ -166,46 +166,18 @@ nav {
   }
 /*------Hero video--------*/
 #herovideo {
-    z-index: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 
-/*standard div style*/
-.box {
-    
-    text-align: center;
-    display: block;
-    color: inherit;
-    margin-bottom: 3%;
-}
-/*images in the standard div styling*/
-.box img {
-    display: inline;
-    width: 25%;
-    margin: 1%;
-    border-radius: 5%;
-    border: #919191 3px solid; 
-    position: relative; 
-}
-/*list items inside standard divs*/
-.box li {
-    list-style: none;
-    padding: 1%;   
+.intro-heading {
+
 }
 
-#toptext {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    display: block;
-    color: inherit;
-    top: 50%;
-    width: 100%;
- }
+.intro-text {
 
-/*adding the general font style and color to the body*/
-
-
-
+}
 
 button {
     width: auto;
