@@ -15,37 +15,35 @@
 <!--Logo and navigation menu    START-->
 <header>
     <div id="logo">
-        <a href="index.html">
-        <img src="/assets/images/logo.png" alt="logo">
-        </a>
+        <a href="index.html"><img src="/assets/images/logo.png" alt="logo"></a>
     </div>
     <nav>
         <ul id="menu"> 
-            <li>
-            <a href="contact.html">Contact</a>
-            </li>
-
-            <li>
-            <a href="https://www.etsy.com/uk/shop/BurnBeyond">Webshop</a>
-            </li>
-
-            <li>
-            <a href="gallery.html">Gallery</a>
-            </li>
-
-            <li>
-            <a href="index.html">Home</a>
-            </li>
-
+            <li><a href="about.html">Contact</a></li>
+            <li><a href="https://www.etsy.com/uk/shop/BurnBeyond">Webshop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-</header>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+</header> 
 <!--Logo and navigation menu    END-->
 
-<!--Welcome screen              START-->
-      
+<!--Welcome screen              START--> 
         <div class="box">
-            <video width="100%" height="auto" loop muted autoplay id="topvideo">
+            <video width="100%" height="auto" loop muted autoplay id="herovideo">
                 <source src="/assets/videos/bluelight.mp4" type="video/mp4">
               Your browser does not support the video tag.
               </video>
@@ -63,7 +61,6 @@
             <p>Having multiple years experience in the industry we provide quality services with competitive price!</p>
             </div>
         </div>
-
 <!--Welcome screen              END-->
 <br>
 <!--First Project                START-->
@@ -156,5 +153,6 @@
         </ul>
     </footer>
 <!--Footer                          END-->
+<script src="index.js"></script>
 </body>
 </html> 
