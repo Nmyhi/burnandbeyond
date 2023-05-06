@@ -37,7 +37,7 @@ p {
 
 
 
-/*-----header----*/
+/*-------------------------------header----------------------*/
 header {
     width: 100vw;
     height: 50px;
@@ -55,7 +55,7 @@ nav {
     display: flex;
 }
 
-/*--------------------------------nav bar-------------------------------*/
+/*-----------------------------NAV BAR STYLING--------------------------------*/
 /*---------------------------------logo---------------------------------*/
 #logo {
     align-items: center;
@@ -71,7 +71,6 @@ nav {
     display: flex;
 }
 /*---------------------------------menu----------------------------------*/
-/*-----menu items-----*/
 #menu {
     display: flex;
     align-items: center;
@@ -97,66 +96,65 @@ nav {
     text-decoration: none;
     transform: scale(1.1);    
 }
-
+/*-------Hamburger menu icon styling----------*/
 #hamburger-icon {
     margin: auto 0;
     display: none;
     cursor: pointer;
   }
   
-  #hamburger-icon div {
+#hamburger-icon div {
     width: 35px;
     height: 3px;
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
-  }
+}
   
-  .open .bar1 {
+.open .bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
-  }
+}
   
-  .open .bar2 {
+.open .bar2 {
     opacity: 0;
-  }
+}
   
-  .open .bar3 {
+.open .bar3 {
     -webkit-transform: rotate(45deg) translate(-6px, -8px);
     transform: rotate(45deg) translate(-6px, -8px);
-  }
+}
   
-  .open .mobile-menu {
+.open .mobile-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-  }
-  
-  .mobile-menu {
+}
+/*--------------------mobile menu styling----------------*/
+.mobile-menu {
     display: none;
     position: absolute;
     top: 50px;
     left: 0;
     height: calc(100vh - 50px);
     width: 100%;
-  }
+}
   
-  .mobile-menu li {
+.mobile-menu li {
     margin-bottom: 10px;
     color: inherit;
     list-style: none;
-  }
+}
 
-  .mobile-menu a {
+.mobile-menu a {
     text-decoration: none;
     color: inherit;
     font-family:"Oxygen", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-  }
-
-  
+}
+/*-----------------------mobile view styling-------------*/ 
   @media only screen and (max-width: 600px) {
     header nav {
       display: none;
@@ -168,13 +166,41 @@ nav {
   }
 /*------Hero video--------*/
 #herovideo {
-    width: 100%;
-    height: 100vh;
-    position: relative;
     z-index: 0;
-
 }
 
+/*standard div style*/
+.box {
+    
+    text-align: center;
+    display: block;
+    color: inherit;
+    margin-bottom: 3%;
+}
+/*images in the standard div styling*/
+.box img {
+    display: inline;
+    width: 25%;
+    margin: 1%;
+    border-radius: 5%;
+    border: #919191 3px solid; 
+    position: relative; 
+}
+/*list items inside standard divs*/
+.box li {
+    list-style: none;
+    padding: 1%;   
+}
+
+#toptext {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    display: block;
+    color: inherit;
+    top: 50%;
+    width: 100%;
+ }
 
 /*adding the general font style and color to the body*/
 
@@ -219,31 +245,7 @@ textarea  {
     margin: 2%;
 }
 
-/*classes*/
-/*standard div style*/
-.box {
-    width: 100%;
-    text-align: center;
-    display: block;
-    color: inherit;
-    position: relative;
-    margin-bottom: 3%;
-}
-/*images in the standard div styling*/
-.box img {
-    display: inline;
-    width: 25%;
-    margin: 1%;
-    border-radius: 5%;
-    border: #919191 3px solid; 
-    position: relative; 
-}
-/*list items inside standard divs*/
-.box li {
-    list-style: none;
-    padding: 1%;
-    
-}
+
 
 
 .quote-link {
@@ -267,28 +269,7 @@ textarea  {
     opacity: 0.5;
     margin: 0 2% 0 2%; 
 }
-
-/*id stles*/
-
-
-
-
-
-
-
-
-
-
-#toptext {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    display: block;
-    color: inherit;
-    top: 50%;
-    width: 100%;
- }
-
+/*materials used*/
  #materials {
     background-image: url("/assets/images/materials.jpg");
     background-size: cover;
@@ -346,7 +327,7 @@ footer {
 #social-links i:hover {
     color: #a6ebfc;
 }
-
+/*contact form*/
 .form-box {
     background-color: inherit;
     background-size: cover;
@@ -384,7 +365,7 @@ textarea {
     height: 10%;
     
 }
-
+/*gallery*/
 .gallery {
     column-count: 3;
     clear: both;
@@ -397,7 +378,7 @@ textarea {
     width: 100%;
 }
     
-
+/*about us*/
 .about-us-container {
     max-width: 800px;
     margin: 0 auto;
