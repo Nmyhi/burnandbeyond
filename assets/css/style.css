@@ -33,6 +33,25 @@ h3 {
 p {
     color: #5E5E5E;
 }
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+a {
+text-decoration: none;
+    color: inherit;
+    font-family:"Oxygen", sans-serif;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #a6ebfc;
+    text-decoration: none;
+    transform: scale(1.1); 
+}
 /*-------------------------------header----------------------*/
 header {
     width: 100vw;
@@ -250,22 +269,51 @@ nav {
 #materials li p {
     color: white;
 }
+/*---------------------Get In Touch----------------*/
+#getintouch {
+    width: 100%;
+    display: block;
+    position: relative;
+    
+}
 
-/*footer links styling*/
+#getintouch h3 {
+    display:block;
+    position: relative;
+    text-align: center;
+}
+
+#getintouch p {
+    position: relative; 
+}
+
+#getintouch button {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+/*------------------------footer-------------------*/
+#footerbox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+}
+
 #social-links {
     text-align: center;
     margin: inherit;
 }
     
 #social-links li {
-        display: inline;
-        padding: 5%;   
+    display: inline;
+    padding: 5%;   
 }
     
 #social-links i {
-        font-size: 160%;
-        text-align: center;
-        color: #5E5E5E;
+    font-size: 160%;
+    text-align: center;
+    color: #5E5E5E;
 }
 
 #social-links i:hover {
