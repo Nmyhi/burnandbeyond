@@ -20,29 +20,19 @@ body {
 h1,h2 {
     font-family: roboto light 300;
     text-transform: uppercase;
-    letter-spacing: 4px;
     color: #a6ebfc;
-    font-size: 1.3em;
 }
 
 h3 {
     font-family: "Oxygen", sans-serif;
-    font-size: 1.2em;
     font-weight: bold;
 }
-
-p {
-    padding: 1.1%;
-}
-
-
-
 /*-------------------------------header----------------------*/
 header {
     width: 100vw;
     height: 50px;
     display: flex;
-    position: fixed;
+    position: absolute;
     background-color: #5E5E5E80;
     padding: 0 20px;
     justify-content: space-between;
@@ -164,121 +154,39 @@ nav {
       display: block;
     }
   }
-/*------Hero video--------*/
-#herovideo {
-  top: 0;
-  width: 100%;
-  height: auto;
+/*------Hero video and welcome sign--------*/
+#welcometextbox {
+    position: relative;
+    text-align: center;
+    padding: 2%;
 }
 
-.intro-heading {
+#welcometextbox h3 {
+    font-family:'Exo', sans-serif;
+    font-size: 1.5em;
+}
 
+#company-intro {
+    padding: 0 2% 2% 2%;
 }
 
 .intro-text {
-
-}
-
-button {
-    width: auto;
-    height: auto;
-    border: 1px solid #303030;
-    border-radius: 25px;
     text-align: center;
-    opacity: 0.5;
-    padding: 0.5%;
-    color: white;
 }
-
-button a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.5em;    
-}
-
-button input {
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.5em; 
-}
-
-button input:hover {
-    color: #a6ebfc;
-}
-
-
-textarea  {
-    height: 25%;
+/*-------------Services-------------------*/
+#services {
+    padding: 2% 5% 2% 5%;
     width: 100%;
-    border: 2px solid #5E5E5E;
-    border-radius: 4px;
-    background-color: inherit;
-    resize: none;
-    margin: 2%;
 }
 
-
-
-
-.quote-link {
-    text-align: center;
-    margin: 3%;
-    display: block;
+#services li {
+    list-style: none;
 }
 
-.quote-link a {
-    text-decoration: none;
-    padding: 10px 10px 10px 10px;
-    color: inherit;
+#services p {
+    padding: 2%;
 }
 
-.quote-link a:hover {
-    color: #a6ebfc;   
-}
-
-.dark-overlay {
-    background-color: #2e2d2d;
-    opacity: 0.5;
-    margin: 0 2% 0 2%; 
-}
-/*materials used*/
- #materials {
-    background-image: url("/assets/images/materials.jpg");
-    background-size: cover;
-    overflow: hidden;
-    display: block;
-    width: 100%;
-    height: 100%;
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    text-align: left;
-    
- }
-
- #materials ul {
-    margin-left: 2%;
- }
-
- #materials li {
-    margin-left: 1.1%;
-    padding: 0;
- }
-
- #material-list-styling {
-    margin: 2% 0 2% 10%;
-}
-
-/*styling the footer section*/
-footer {
-    height: 150px;
-    display: inline;
-    margin: 70px;
-    position: relative;
-    
- 
-}
 /*footer links styling*/
 #social-links {
     text-align: center;
