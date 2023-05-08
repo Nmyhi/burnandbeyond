@@ -34,12 +34,6 @@ p {
     color: #5E5E5E;
 }
 
-button {
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
-}
-
 a {
 text-decoration: none;
     color: inherit;
@@ -292,7 +286,19 @@ nav {
     margin: 0 auto;
     position: relative;
 }
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
 /*------------------------footer-------------------*/
+footer {
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+}
+
 #footerbox {
     position: relative;
     width: 100%;
@@ -302,12 +308,12 @@ nav {
 
 #social-links {
     text-align: center;
-    margin: inherit;
+    margin: 0 auto;
 }
     
 #social-links li {
     display: inline;
-    padding: 5%;   
+    padding: 0 5% 0 5%;   
 }
     
 #social-links i {
@@ -319,73 +325,72 @@ nav {
 #social-links i:hover {
     color: #a6ebfc;
 }
-/*contact form*/
-.form-box {
-    background-color: inherit;
-    background-size: cover;
-    height: 100vh;
-    clear: left;
-    background-image: url("/assets/images/contactformbackground.jpg");   
-}
 
-.quotation {
-    padding: 10%;
-    height: 50%;
-    width: 50%;
-    background-color: #2e2d2d;
-    margin: 5% 15% 5% 15%;
-    position: absolute;
-    border-radius: 3%;
-    border: 1px solid #c9c3c3;
-    display: absolute;
-    top: 10%;
-}
-
-textarea {
-    display: block;
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-    position: relative;
-}
-
-.input-text {
-    margin: 2%;
-    border: black solid 1px;
-    display: block;
-    width: 75%;
-    height: 10%;
-    
-}
-/*gallery*/
-.gallery {
-    column-count: 3;
-    clear: both;
-    line-height: 1.5;
+/*-----------gallery----------------------*/
+#gallery {
+    column-count: 2;
     column-gap: 5px;
-    
+    clear: both;
 }
 
-.gallery img {
+#gallery img {
     width: 100%;
 }
     
-/*about us*/
+/*---------------about us-----------------*/
 .about-us-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
-      }
+}
       
 .about-us-container h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-      }
+}
       
 .about-us-container p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
-      }
+}
+/*--------------------------------contact form------------------------*/
+.form-box {
+    background-color: inherit;
+    background-size: cover;
+    height: 100vh;
+    background-image: url("/assets/images/contactformbackground.jpg");
+    display: flex;
+    place-items: center;
+    justify-items: center;  
+}
+
+.quotation {
+    padding: 10%;
+    height: auto;
+    width: 85%;
+    background-color: #2e2d2d;
+    margin: 0 auto;
+    border-radius: 3%;
+    border: 1px solid #c9c3c3;
+    top: 10%;
+}
+textarea label {
+    
+}
+textarea {
+    margin: 2%;
+    width: 80%;
+    height: 300px;
+}
+
+.input-text {
+    padding: 1%;
+    border: black solid 1px;
+    display: block;
+    width: 80%;
+    height: 30px;
+    
+}
