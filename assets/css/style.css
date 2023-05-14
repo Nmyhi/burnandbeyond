@@ -21,6 +21,8 @@ h1,h2 {
     font-family: roboto light 300;
     text-transform: uppercase;
     color: #a6ebfc;
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
 
 h3 {
@@ -28,6 +30,8 @@ h3 {
     font-weight: bold;
     color: #a6ebfc;
     padding-bottom: 20px;
+    padding-top: 10px;
+    
 }
 
 p {
@@ -44,6 +48,17 @@ text-decoration: none;
 a:hover {
     color: #a6ebfc;
     text-decoration: none; 
+}
+
+hr {
+    height:3px;
+    border-width:1,4;
+    color:gray;
+    background-color:gray;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
 }
 /*-------------------------------header----------------------*/
 header {
@@ -147,8 +162,6 @@ nav {
     left: 0;
     height: max-content;
     width: 100%;
-
-
 }
   
 .mobile-menu li {
@@ -216,11 +229,14 @@ nav {
     position: relative;
     width: 100%;
     clear: both;
+    margin: 10px 0 10px 0;
 }
 
 .services-list-item li{
     list-style: none;
     color: #a6ebfc;
+    margin: 40px 0 5px 0;
+    text-transform: uppercase;
 }
 
 .imagebox {
@@ -322,30 +338,30 @@ footer {
     margin-bottom: 5%;
 }
 
-#footerbox {
+.footerbox {
     position: relative;
     width: 100%;
     height: auto;
     margin-bottom: 5%;
 }
 
-#social-links {
+.social-links {
     text-align: center;
     margin: 0 auto;
 }
     
-#social-links li {
+.social-links li {
     display: inline;
     padding: 0 5% 0 5%;   
 }
     
-#social-links i {
+.social-links i {
     font-size: 160%;
     text-align: center;
     color: #5E5E5E;
 }
 
-#social-links i:hover {
+.social-links i:hover {
     color: #a6ebfc;
 }
 
@@ -358,6 +374,7 @@ footer {
     justify-content:flex-end;
     flex-direction: column;
     background-image: url("../images/gallerybackground.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -410,7 +427,7 @@ footer {
 .form-box {
     background-color: inherit;
     background-size: cover;
-    height: 100vh;
+    height: max-content;
     background-image: url("../images/contactformbackground.jpg");
     display: flex;
     place-items: center;
@@ -429,10 +446,16 @@ footer {
     top: 10%;
 }
 
+.quotation label {
+    position: relative;
+
+}
+
 textarea {
-    margin: 2%;
+    margin-top: 2%;
     width: 80%;
     height: 300px;
+    position: relative;
 }
 
 .input-text {
@@ -440,6 +463,5 @@ textarea {
     border: black solid 1px;
     display: block;
     width: 80%;
-    height: 30px;
-    
+    height: 30px;   
 }
