@@ -7,7 +7,7 @@ This site has been created to showcase the company's services, projects, webshop
 Are you looking for a professional laser technology company?
 Do not search any further you have found it. Browse from our services, projects, webshop or contact us to disguss your idea!
 
-Head to the deployed site at [Burn and Beyond]().
+Head to the deployed site at [Burn and Beyond](https://nmyhi.github.io/burnandbeyond/).
 
 ## Table of Contents
 * [User Experience](#User-Experience)
@@ -51,9 +51,25 @@ Head to the deployed site at [Burn and Beyond]().
 ## User Experience
 ### Initial Discussion
 
+Burn and Beyond is a small laser cutting and engraving company located in Hatfield (UK). We provide a wide range of services and various artistic items for companies and people. Burn and Beyond want to provide a platform where customers can get faimiar with the company and their products.
+
 ### Demographic
 
+With the site being in the edge of London there is a wide range of people who may be interested in their services and products.
+
+* Young professionals
+* Business owners
+* Light Designers
+* Interior designers
+* Exterior designers
+* All age group of Etsy users
+
 ### User Stories
+
+* Client goals
+* First time Visitor goals
+* Returning visitor goals
+* Frequent visitor goals
 
 ### Strategic Trade offs
 
@@ -65,8 +81,32 @@ Head to the deployed site at [Burn and Beyond]().
 
 ### Imagery
 
+Images owned by the company
+Unsplash
+Gimp
+Dall e2
+
+### Wireframe/sitemap
+
+Mobile Wireframe
+Tablet wireframe
+Desktop wireframe
+    BALSAMIC
+
+
+Services
+Products
+materials used
+contact
+social links
+
 ### Features
 
+*home page
+*gallery
+*about us
+*webshop
+*contact
 
 ### Future Implementations
 
