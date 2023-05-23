@@ -266,7 +266,7 @@ button {
 }
 /*-------------Services and portfolio-------------------*/
 
-#portfolio {
+.portfolio {
     padding: 2% 5% 2% 5%;
     width: 100%;
 }
