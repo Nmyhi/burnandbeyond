@@ -39,10 +39,12 @@ p {
 }
 
 a {
-text-decoration: none;
+
+    text-decoration: none;
     color: inherit;
     font-family:"Oxygen", sans-serif;
     font-weight: 500;
+    
 }
 
 a:hover {
@@ -76,6 +78,13 @@ nav {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #c9c3c3;
 }
 
 /*-----------------------------NAV BAR STYLING--------------------------------*/
@@ -255,13 +264,17 @@ nav {
         font-size: 2em;
     }
 }
-/*-------------Services-------------------*/
+/*-------------Services and portfolio-------------------*/
 
-.portfolio-list-item li{
-    list-style: none;
-    color: #a6ebfc;
-    margin: 40px 0 5px 0;
-    text-transform: uppercase;
+#portfolio {
+    padding: 2% 5% 2% 5%;
+    width: 100%;
+}
+
+.project {
+    position: relative;
+    width: 100%;
+    clear: both;
 }
 
 .imagebox {
@@ -281,41 +294,7 @@ nav {
    border: 2px solid #888787;
 }
 
-@media screen and (min-width: 950px) {
-   
-    .imagebox {
-        padding-top: 20px;
-    }
 
-    .imagebox img {
-        height: 350px;
-        width: 700px;
-    }
-
-    .portfolio-list-item {
-        margin: 0;
-        text-align: center;
-        font-size: 2em;
-    }
-
-    .portfolio-list-item p {
-        text-align: left;
-    }
-    
-}
-
-/*---------------------------portfolio---------------------*/
-
-#portfolio {
-    padding: 2% 5% 2% 5%;
-    width: 100%;
-}
-
-.project {
-    position: relative;
-    width: 100%;
-    clear: both;
-}
 
 @media screen and (min-width: 950px) {
     .project h3 {
@@ -328,6 +307,15 @@ nav {
         margin: 0;
         text-align: left;
         font-size: 2em;
+    }
+
+    .imagebox {
+        padding-top: 20px;
+    }
+
+    .imagebox img {
+        height: 350px;
+        width: 700px;
     }
 }
 
@@ -371,27 +359,29 @@ nav {
     position: relative;
 }
 
-#getintouch ul {
-    margin-bottom: 10px;
-}
-
-#getintouch button {
+.getintouch-button {
     display: block;
+    width:fit-content;
+    padding: 10px;
+    background-color: #2e2d2d;
+    color: #a6ebfc;
+    border-radius: 20px;
+    clear: both;
     margin: 0 auto;
-    position: relative;
-    margin-top: 20px;
 }
 
-button {
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
+.getintouch-button:hover {
+    background-color: #a6ebfc;
+    color: #2e2d2d;
+    transform: scale(1.1);
 }
+
 /*------------------------footer-------------------*/
 footer {
     position: relative;
     width: 100%;
-    margin: 20px 0 20px 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .social-links {
@@ -577,11 +567,28 @@ footer {
     clear: both;
 }
 
-.quotation button {
+.quotation-button {
+    display: block;
     position: relative;
-    float: left;
+    width:fit-content;
+    padding: 10px;
+    background-color: #535353;
+    color: #a6ebfc;
+    border-radius: 20px;
     clear: both;
-    margin-top: 10px;
+    float: left;
+    margin-top: 20px;
+}
+
+.quotation-button input {
+    background-color: inherit;
+    color: inherit;
+}
+
+.quotation-button:hover {
+    background-color: #a6ebfc;
+    color: #2e2d2d;
+    transform: scale(1.1);
 }
 
 textarea {
@@ -591,7 +598,8 @@ textarea {
     position: relative;
     float: left;
     clear: both;
-    background-color: #575757;  
+    background-color: #575757;
+    border-radius: 5px;  
 }
 
 .input-text {
