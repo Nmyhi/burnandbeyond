@@ -57,7 +57,7 @@ hr {
     height: 3px;
     color:gray;
     background-color: #a6ebfc;
-    width: 600px;
+    width: 60vw;
     text-align: center;
     margin: auto;
     margin-top: 20px;
@@ -317,7 +317,7 @@ button {
 
 
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 750px) {
     .project h3 {
         margin: 0;
         text-align: center;
@@ -339,6 +339,7 @@ button {
 
     .imagebox img {
         width: 33%;
+        height: 33vh;
         margin: 0 5px 0 5px;
     }
 }
