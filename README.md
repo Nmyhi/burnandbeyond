@@ -67,12 +67,52 @@ With the site being in the edge of London there is a wide range of people who ma
 ### User Stories
 
 * Client goals
+    - To have an online presence.
+    - Display a wide range of information on the site like: products, projects, services.
+    - Increase traffic to a physical site.
+    - Increase interactions with customers via social media and contact form.
+
 * First time Visitor goals
-* Returning visitor goals
+    - Being able to navigate the site easily.
+    - Being able to access the menu and pages including getting in touch.
+    - Find out about products and services.
+
+* Returning visitor goals.
+    - Find out about new services, products and projects.
+    - To be able to access the company's social media sites and the quotation form in case they want to send new requests.
+
 * Frequent visitor goals
+    - Using the webshop to click and order prodects they liked before.
 
 ### Strategic Trade offs
 
+| Opportunity/Problem | Importance | Viability/Feasability |
+| ----------- | ----------- | ----------- |
+| Create an online presence | 5 | 5 |
+| Display the range of services and products on the site | 5 | 3 |
+| Increase social media interaction | 3 | 4 |
+| Provide opportunity to get in touch | 5 | 3 |
+| Showcase gallery images | 3 | 5 |
+| Total | 21 | Avg 20 |
+
+Above I have listed documented some trade-offs and I will explain the reasoning behind them.
+
+- Online presence
+  - This is mandatory and should be achievable given that I am a Front-End Web Developer(the course upto now has given everything I need to achieve this).
+
+- Display the range of services and products on the site
+  - Not as important as an online presence, but most definitely still up there. I feel it is also feasible given my skillset, however this company is still quite small in size
+   therefore there is not too many things to showcase.
+
+- Social media interaction
+  - Again, this is well within my skillset as this could be something as simple as a CTA or footer icons with links to social media.
+
+- Provide opportunity to get in touch
+  - In order to get in touch I can provide a company email and a contact form with all the details of the company, however being a front-end developer I feel like this problem is not fully solved yet, because of the lack of back-end knowledge. (the contact form is not fully functioning.)
+
+- Showcase gallery images
+  - This is a fully achiveable goal through different photoes I have collected throughtout the company's lifetime.
+  
 ## Design
 
 ### Colour Scheme
