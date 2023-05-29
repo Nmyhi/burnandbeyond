@@ -144,7 +144,6 @@ button {
 }
   
 .open .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
 }
   
@@ -153,7 +152,6 @@ button {
 }
   
 .open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px, -8px);
     transform: rotate(45deg) translate(-6px, -8px);
 }
   
@@ -582,7 +580,7 @@ footer {
     width: 85%;
     background-color: #2e2d2d;
     margin-top: 5%;
-    border-radius: 3%;
+    border-radius: 20px;
     border: 1px solid #c9c3c3;
     top: 10%;
 }
