@@ -232,7 +232,7 @@ button {
     text-align: center;
     color: #bdbdbd;
 }
-
+/*screen with more than 600 px width media query*/
 @media screen and (min-width: 600px) {
     #welcometextbox {
         position: absolute;
@@ -253,7 +253,7 @@ button {
         font-size: 1em;
     }
 }
-
+/*screens with minimum 950px width media query*/
 @media screen and (min-width: 950px) {
     #welcometextbox {
         position: absolute;
@@ -466,7 +466,7 @@ footer {
     width: 100%;
     
 }
-
+/*screens with more than 950px width media query for the gallery*/
 @media screen and (min-width: 950px) {
     .galleryherobox {
         height: 600px;
@@ -543,7 +543,7 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
-
+/*screens with more than 950 px media query for about us*/
 @media screen and (min-width: 950px) {
     .aboutusherobox {
         height: 50vh;
@@ -651,7 +651,7 @@ textarea {
 .contactherobox {
     color: white;
 }
-
+/*screens with more than 950 px width media query for the contact page elements*/
 @media screen and (min-width: 950px) {
     .contactherobox {
         height: 50vh;
