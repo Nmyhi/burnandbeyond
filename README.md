@@ -117,14 +117,33 @@ Above I have listed documented some trade-offs and I will explain the reasoning 
 
 ### Colour Scheme
 
+I wanted to use a colour scheme that wasn't going to distract too much from the text but also make the website pop, and look fun. I felt like the approach is to use various shades of grey with few vibrant colours like a shade of blue, white and silver.
+
+<img src="assets/images/readme/colorpalette.png" width="400" height="300" /> 
+
 ### Typography
+
+I decided that I didn't want to overcomplicate the typography, and settled on Roboto and Oxygen with a fallback font of Sans-serif. 
+
+Font weights for Roboto are regular(300) and medium(500) and bold. Regular is used for the text on the pages and medium, bold are used for headings.
 
 ### Imagery
 
-Images owned by the company
-Unsplash
-Gimp
-Dall e2
+Being a local lasercutting company I decided to use as many own images as possible, however I used few stock and AI generated photos as well.
+
+- External sources:
+
+[Unsplash](https://unplash.com "Stock photo site") <br>
+[Dall-e-2](https://openai.com/product/dall-e-2 "Photo generator site")
+
+- I have used a free photo editor for formatting my own pictures.
+
+[Gimp](https://www.gimp.org "free photo manipulator software")
+
+- I have used a free open source video editor to transform the index page hero video.
+
+[Shortcut](https://shotcut.org/download/ "free, open source video editor software")
+[Shortcut-github-repository](https://github.com/mltframework/shotcut "Github repository")
 
 ### Wireframe/sitemap
 
