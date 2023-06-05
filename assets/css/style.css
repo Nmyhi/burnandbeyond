@@ -62,7 +62,15 @@ hr {
     margin: auto;
     margin-top: 20px;
 }
-/*-------------------------------header----------------------*/
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #c9c3c3;
+}
+
+/*-----------------------------NAV BAR and Header STYLING--------------------------------*/
 header {
     width: 100%;
     height: 50px;
@@ -80,14 +88,7 @@ nav {
     display: flex;
 }
 
-button {
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #c9c3c3;
-}
 
-/*-----------------------------NAV BAR STYLING--------------------------------*/
 /*---------------------------------logo---------------------------------*/
 #logo {
     align-items: center;
@@ -128,7 +129,7 @@ button {
     text-decoration: none;
     transform: scale(1.1);    
 }
-/*-------Hamburger menu icon styling----------*/
+/*-------         Hamburger menu icon styling    (youtube tutorial used, link in the readme file)    ----------*/
 #hamburger-icon {
     margin: auto 0;
     display: none;
@@ -161,7 +162,7 @@ button {
     align-items: center;
     justify-content: flex-start;
 }
-/*--------------------mobile menu styling----------------*/
+/*--------------------mobile menu styling     (youtube tutorial used, link in the readme file)    ----------------*/
 .mobile-menu {
     display: none;
     position: absolute;
