@@ -251,6 +251,15 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 
 ### Validation
 
+I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also validated the my own style.css with the CSS Validator.
+
+* [Index Page HTML]()
+* [Products Page HTML]()
+* [Reviews Page HTML]()
+* [Gallery Page HTML]()
+* [Contact Page HTML]()
+* [Stylesheet style.css]() 
+
 ### Fixed Bugs
 
 ### Known Issues
