@@ -25,6 +25,7 @@ h1,h2 {
     padding: 10px 0 10px 0;
 }
 
+
 h3 {
     font-family: "Oxygen", sans-serif;
     font-weight: bold;
@@ -35,6 +36,11 @@ h3 {
 }
 
 p {
+    color: #bdbdbd;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+span {
     color: #bdbdbd;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -61,6 +67,7 @@ hr {
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 button {
@@ -280,7 +287,7 @@ nav {
     }
 
         .intro-text {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -317,10 +324,9 @@ nav {
 
 
 @media screen and (min-width: 750px) {
-    .project h3 {
-        margin: 0;
+    .project h2 {
         text-align: center;
-        font-size: 2em;
+       
     }
 
     .project p {
@@ -338,7 +344,8 @@ nav {
 
     .imagebox img {
         width: 33%;
-        height: 33vh;
+        height: 300px;
+        
         margin: 0 5px 0 5px;
     }
 }
@@ -470,7 +477,7 @@ footer {
 /*screens with more than 950px width media query for the gallery*/
 @media screen and (min-width: 950px) {
     .galleryherobox {
-        height: 600px;
+        height: 66vh;
         }
 
     .galleryherobox h3 {
@@ -519,7 +526,7 @@ footer {
 
 .aboutusherobox {
     width: 100%;
-    height: 300px;
+    height: 66vh;
     display: flex;
     align-items: center;
     justify-content:flex-end;
@@ -547,7 +554,8 @@ footer {
 /*screens with more than 950 px media query for about us*/
 @media screen and (min-width: 950px) {
     .aboutusherobox {
-        height: 50vh;
+        height: 66vh;
+        background-position: bottom;
         }
 
     .aboutusherobox h3 {
@@ -647,6 +655,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-position: bottom;
 }
 
 .contactherobox {
@@ -655,7 +664,7 @@ textarea {
 /*screens with more than 950 px width media query for the contact page elements*/
 @media screen and (min-width: 950px) {
     .contactherobox {
-        height: 50vh;
+        height: 66vh;
         }
 
     .contactherobox h3 {
