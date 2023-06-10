@@ -74,7 +74,7 @@ With the site being in the edge of London there is a wide range of people who ma
 
 * First time Visitor goals
     - Being able to navigate the site easily.
-    - Being able to access the menu and pages including getting in touch.
+    - Being able to access the menu and pages including contact details.
     - Find out about products and services.
 
 * Returning visitor goals.
@@ -82,7 +82,7 @@ With the site being in the edge of London there is a wide range of people who ma
     - To be able to access the company's social media sites and the quotation form in case they want to send new requests.
 
 * Frequent visitor goals
-    - Using the webshop to click and order prodects they liked before.
+    - Using the webshop to click and order products they liked before.
 
 ### Strategic Trade offs
 
@@ -249,6 +249,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Gimp](https://www.gimp.org/ "free photo editor") was used to reduce file size of an image.
 * [Shotcut](https://shotcut.org/download/ "free, open source video editor software") was used for formatting the index page's hero video.
 * [ChatGpt](https://openai.com/blog/chatgpt "free text generator AI") was used for generating content for the about us page.
+* [Dall-E-2](https://openai.com/dall-e-2 "Dall-E-2 open AI") was used for generating the material section's fixed background picture.
 
 ## Testing
 
@@ -259,25 +260,76 @@ I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also
 * [Index Page HTML](assets/images/readme/burnandbeyond-index-validation.png)
 * [About Page HTML](assets/images/readme/burnandbeyon-about-validation.png)
 * [Gallery Page HTML](assets/images/readme/burnandbeyond-gallery-validation.png)
-* [Contact Page HTML]()
+* [Contact Page HTML](assets/images/readme/burnandbeyond-contact-validation.png)
 * [Stylesheet style.css](assets/images/readme/burnandbeyond-stylesheet-validation.png) 
 
 ### Fixed Bugs
 
 ### Known Issues
 
+* Issue 1:
+  * The hero video on the index page is not playing on iphone devices.
+  
+  ![Hero Video issue](assets/images/readme/iphone-bug1.jpg)
+
+* Issue 2:
+  * The materials fixed background picture appears incorrectly on iphone devices.
+
+  ![Materials background issue](assets/images/readme/iphone-bug2.jpg)
+
 ### Testing User Stories
+
+* First time Visitor goals
+  * Being able to navigate the site easily.
+
+  ![Burn and Beyond desktop navbar](assets/images/readme/burnandbeyonddesktopnavbar.png)
+
+  ![Burn and Beyond mobile navbar](assets/images/readme/burnandbeyondmobilenavbar.png)
+
+  * Being able to access the menu and pages including contact details.
+
+    - The menu is accessible from every page to any location on the site.
+
+    - The contact details are visible on every page above the footer.
+
+    ![Burn and Beyond contact us section](assets/images/readme/contactus.png)
+
+  * Find out about products and services.
+
+    - The products are accesible from the menu->Webshop and the main products and services have been showcased on the index page as well.
+
+    ![Services and portfolio screenshot](assets/images/readme/services-and-portfolio-screenshot.png)
+
+* Returning visitor goals.
+    * Find out about new services, products and projects.
+
+    I have achieved this goal by updating the new services whenever there is going to be one and the new products are always visible on the webshop which is accessible from the menu.
+
+    ![Burn and Beyond Etsy webshop](assets/images/readme/www.etsy.com_uk_shop_BurnBeyond.png)
+
+    * To be able to access the company's social media sites and the quotation form in case they want to send new requests.
+
+    I achieved this goal by including the social media site addresses in the footer and by having a contact form where customers can send their messages, questions and quotations as well.
+
+    ![Contact form screenshot](assets/images/readme/contactform.png)
+
+    ![Social media screenshot](assets/images/readme/socialmedia.png)
+
+* Frequent visitor goals.
+
+    * Using the webshop to click and order products they liked before.
+
+    ![Ordering from the Etsy Webshop](assets/images/readme/orderingfrometsy.png)
 
 ### Lighthouse
  #### Index Page
-
- #### Gallery Page
-
- #### Contact Page
- The Reviews page Lighthouse results can be found here [Reviews Page Lighthouse](assets/readme/docs/reviews-lighthouse.png)
+ The Index page Lighthouse results can be found here [Index Page Lighthouse](assets/readme/docs/index-lighthouse.png)
  #### About Page
-
+ The About page Lighthouse results can be found here [About Page Lighthouse](assets/readme/docs/products-lighthouse.png)
+ #### Gallery Page
+ The Gallery page Lighthouse results can be found here [Gallery Page Lighthouse](assets/readme/docs/reviews-lighthouse.png)
  #### Contact Page
+ The Contact page Lighthouse results can be found here [Contact Page Lighthouse](assets/readme/docs/gallery-lighthouse.png)
 
 ### Manual Testing
 
