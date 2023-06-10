@@ -328,13 +328,13 @@ I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also
 
 ### Lighthouse
  #### Index Page
- The Index page Lighthouse results can be found here [Index Page Lighthouse](assets/readme/docs/index-lighthouse.png)
+ The Index page Lighthouse results can be found here [Index Page Lighthouse](assets/images/readme/indexpage-lighthouse.png)
  #### About Page
- The About page Lighthouse results can be found here [About Page Lighthouse](assets/readme/docs/products-lighthouse.png)
+ The About page Lighthouse results can be found here [About Page Lighthouse](assets/images/readme/aboutpage-lighthouse.png)
  #### Gallery Page
- The Gallery page Lighthouse results can be found here [Gallery Page Lighthouse](assets/readme/docs/reviews-lighthouse.png)
+ The Gallery page Lighthouse results can be found here [Gallery Page Lighthouse](assets/images/readme/gallerypage-lighthouse.png)
  #### Contact Page
- The Contact page Lighthouse results can be found here [Contact Page Lighthouse](assets/readme/docs/gallery-lighthouse.png)
+ The Contact page Lighthouse results can be found here [Contact Page Lighthouse](assets/images/readme/contactpage-lighthouse.png)
 
 ### Manual Testing
 
