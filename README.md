@@ -127,6 +127,8 @@ I decided that I didn't want to overcomplicate the typography, and settled on Ro
 
 Font weights for Roboto are regular(300) and medium(500) and bold. Regular is used for the text on the pages and medium, bold are used for headings.
 
+I have used [ChatGpt](https://openai.com/blog/chatgpt) for generating content for the about us page.
+
 ### Imagery
 
 Being a local lasercutting company I decided to use as many own images as possible, however I used few stock and AI generated photos as well.
@@ -246,6 +248,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Gitpod](https:://www.gitpod.io "Gitpod Cloud IDE") the vast majority of my time was spent inside GitPod's VSCode Cloud IDE.
 * [Gimp](https://www.gimp.org/ "free photo editor") was used to reduce file size of an image.
 * [Shotcut](https://shotcut.org/download/ "free, open source video editor software") was used for formatting the index page's hero video.
+* [ChatGpt](https://openai.com/blog/chatgpt "free text generator AI") was used for generating content for the about us page.
 
 ## Testing
 
