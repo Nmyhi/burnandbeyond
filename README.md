@@ -135,6 +135,10 @@ Being a local lasercutting company I decided to use as many own images as possib
 
 - External sources:
 
+- Youtube tutorial for creating the mobile manu:
+
+[Youtube tutorial](https://www.youtube.com/watch?v=OjQP7rPwJyE "Tutorial of creating a 'hamburger' mobile menu")
+
 - Free stock photo site:
 
 [Unsplash](https://unplash.com "Stock photo site")
@@ -250,6 +254,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Shotcut](https://shotcut.org/download/ "free, open source video editor software") was used for formatting the index page's hero video.
 * [ChatGpt](https://openai.com/blog/chatgpt "free text generator AI") was used for generating content for the about us page.
 * [Dall-E-2](https://openai.com/dall-e-2 "Dall-E-2 open AI") was used for generating the material section's fixed background picture.
+* [TinyJPG](https://tinyjpg.com/ "TinyJPG online image compressor software") was used to compress the gallery images to improve performance.
 
 ## Testing
 
