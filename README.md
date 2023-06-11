@@ -255,6 +255,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [ChatGpt](https://openai.com/blog/chatgpt "free text generator AI") was used for generating content for the about us page.
 * [Dall-E-2](https://openai.com/dall-e-2 "Dall-E-2 open AI") was used for generating the material section's fixed background picture.
 * [TinyJPG](https://tinyjpg.com/ "TinyJPG online image compressor software") was used to compress the gallery images to improve performance.
+* [Bob's Bakery deployed github repository](https://github.com/boblogdev/bobsbakery/tree/main "Bobs Bakery 1st Milestone project") was used as a template to have a clear idea about the structure of the readme.md file.
 
 ## Testing
 
@@ -293,9 +294,9 @@ I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also
 
   * Being able to access the menu and pages including contact details.
 
-    - The menu is accessible from every page to any location on the site.
+    * The menu is accessible from every page to any location on the site.
 
-    - The contact details are visible on every page above the footer.
+    * The contact details are visible on every page above the footer.
 
     ![Burn and Beyond contact us section](assets/images/readme/contactus.png)
 
@@ -338,25 +339,106 @@ I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also
 
 ### Manual Testing
 
+As I proceeded through the development phase I consistently checked each page to make sure that they were responsive. I achieved this by utilizing Chrome Dev Tools, my own Samsung Galaxy S10 and my friend's Iphone 14 Pro.
+
+* Each link on each page was clicked to verify that it goes to the correct page.
+* Social media links were clicked on each page to verify that they opened in new windows and the correct page.
+* The Burn adn Beyond logo was clicked to verify that it went back to index.html.
+
 #### Mobile
+
+The navbar for mobile is replicated through the entire site so I have only provided the single screenshot for the mobile navbar and footer.
+
+
+<img src="assets/images/readme/mobile-menu.png" height="640" width="312" alt="mobile navbar view">
+
+The results for the mobile navbar are as expected.
+
+<img src="assets/images/readme/mobile-footer.png" height="640" width="312" alt="mobile footerview">
+
+The results for the mobile footer are as expected.
+
+<img src="assets/images/readme/index-page-images-mobile.png" height="640" width="312" alt="mobile index page images view">
+
+Screenshot of the index page images on mobile are as expected.
+
+<img src="assets/images/readme/about-page-mobile.png" height="640" width="312" alt="mobile about page view">
+
+Screenshot of the about page on mobile are as expected.
+
+<img src="assets/images/readme/gallery-page-mobile.png" height="640" width="312" alt="mobile gallery page view">
+
+Screenshot of the gallery page on mobile are as expected.
+
+<img src="assets/images/readme/contact-page-mobile.png" height="640" width="312" alt="mobile contact page view">
+
+Screenshot of the contact page on mobile are as expected.
 
 #### Tablet 
 
+Each page was tested on tablet Ipad emulation via Chrome Dev Tools. I have attached a full page screenshot shown here Full Page Index Screenshot Tablet. Each page works as expected.
+
+[Full Page Index Screenshot Tablet](assets/images/readme/index-page-tablet.png).
+
+[Full Page About Screenshot Tablet](assets/images/readme/about-page-tablet.png).
+
+[Full Page Gallery Screenshot Tablet](assets/images/readme/gallery-page-tablet.png).
+
+[Full Page Contact Screenshot Tablet](assets/images/readme/contact-page-tablet.png).
+
 #### Desktop
+
+Using Chrome Developer tools each page was verified to be working correctly.
+
+* [Index Page Screenshot](assets/images/readme/index-page-desktop.png)
+* [About Page Screenshot](assets/images/readme/about-page-desktop.png)
+* [Gallery Page Screenshot](assets/images/readme/gallery-page-desktop.png)
+* [Contact Page Screenshot](assets/images/readme/contact-page-desktop.png)
 
 ## Deployment & Local Development
 
 ### Deploying to Github Pages
 
-### Local Development
+* Choose the repository you want to deploy from the main overview.
+* Go to settings by clicking on the icon on the menu.
+* In the left navigation, select the "Pages" option.
+* Under "Source", choose "Master" branch and click "Save".
+* After it's done, you will see a message saying "Your site is ready to be published at (insert url here)".
 
+### Local Development
 #### How To Fork
+
+Forking a repository is the process of creating a copy of the original repository. This enables you to make changes without affecting the main repository. 
+
+To do so:-
+* go to the GitHub repository you want to copy.
+* select the 'Fork' button located in the top right corner, under your profile icon. 
+* Once complete, you will now have your own version of the repository to make changes to.
 
 #### How To Clone
 
+To copy a GitHub repository:-
+* first navigate to the repository you wish to copy. 
+* click on the 'Code' button (which has a download icon) and copy the link provided.
+* in the Gitpod Terminal, navigate to the directory where you wish to place the clone. Then, type 'git clone' and paste the link you copied earlier and press enter. This process can also be completed using VSCode.
+
 ## Credits
+?
+?
+?
+?
+?
+?
+
 
 ### Images
 
+My own images
+Dall-E-2
+Unsplash
+
 ### Acknowledgement
+
+* Chris Quinn - came up with some things I'd never even thought of and was a really good guide.
+* Callum Jones - for turning up consistently and offering helpful advice and tips.
 
