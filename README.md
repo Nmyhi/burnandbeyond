@@ -167,7 +167,7 @@ The sitemap allows me to get a higher-level view of how the users will navigate 
 
 [Desktop wireframe](assets/images/readme/desktop-wireframe.png)
 
-Wireframes were initially created using [balsamiq](https://balsamiq.com/wireframes/ "Balsamiq Wireframes Software") windows version.
+Wireframes were initially created using [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq Wireframes Software") windows version.
 
 ### Features
 
@@ -241,11 +241,11 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Balsamiq](https://www.balsamiq.com/wireframes "Balsamiq Wireframing Tool") was used to create the wireframes/sitemap for the site.
 * [Font Awesome](https://fontawesome.com/icons "Font Awesome 6.2.1 Free Icons") was used for the social media icons in the footer.
 * [Chrome Developer Edition](https://developer.chrome.com/docs/devtools "Chrome Developer Tools") this was used to find out specific styling of elements and to identify and resolve problems related to responsiveness and appearance.
-* [Google Fonts](fonts.google.com "Google Fonts") we used the Roboto font and also the Oxygen font.
+* [Google Fonts](https://fonts.google.com/ "Google Fonts") we used the Roboto font and also the Oxygen font.
 * [Github](https://github.com/ "Github") was used to store my project in a repository. 
 * [Git](https://git-scm.com/ "Git Version Control") was used for Version Control.
 * [Google](https://www.google.co.uk "Google Search Engine") was used to research HTML & CSS.
-* [Gitpod](https:://www.gitpod.io "Gitpod Cloud IDE") the vast majority of my time was spent inside GitPod's VSCode Cloud IDE.
+* [Gitpod](https://www.gitpod.io "Gitpod Cloud IDE") the vast majority of my time was spent inside GitPod's VSCode Cloud IDE.
 * [Gimp](https://www.gimp.org/ "free photo editor") was used to reduce file size of an image.
 * [Shotcut](https://shotcut.org/download/ "free, open source video editor software") was used for formatting the index page's hero video.
 * [TinyJPG](https://tinyjpg.com/ "TinyJPG online image compressor software") was used to compress the gallery images to improve performance.
@@ -420,7 +420,9 @@ To copy a GitHub repository:-
 * [Bob's Bakery deployed github repository](https://github.com/boblogdev/bobsbakery/tree/main "Bobs Bakery 1st Milestone project") was used as a template to have a clear idea about the structure of the readme.md file.
 * [ChatGpt](https://openai.com/blog/chatgpt "free text generator AI") was used for generating text content for the about us page.
 * [Dall-E-2](https://openai.com/dall-e-2 "Dall-E-2 open AI") was used for generating the material section's fixed background picture.
-* [Youtube tutorial](https://www.youtube.com/watch?v=OjQP7rPwJyE "Tutorial of creating a 'hamburger' mobile menu")
+* [Youtube tutorial](https://www.youtube.com/watch?v=OjQP7rPwJyE "Tutorial of creating a 'hamburger' mobile menu") was used to create the mobile menu.
+* [Shotcut-github-repository](https://github.com/mltframework/shotcut "Github repository") was used to format the hero video.
+
 ### Images
 
 * My own images
