@@ -178,6 +178,7 @@ nav {
     left: 0;
     height: max-content;
     width: 100%;
+    background-color: #5E5E5E80;
 }
   
 .mobile-menu li {
