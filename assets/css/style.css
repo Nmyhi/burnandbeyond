@@ -512,7 +512,7 @@ footer {
 
 /*---------------about us-----------------*/
 .about-us-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -525,7 +525,7 @@ footer {
 }
       
 .about-us-container p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -563,7 +563,7 @@ footer {
         height: 66vh;
         background-position: bottom;
         }
-
+        
     .aboutusherobox h3 {
         margin: 0;
         text-align: center;
