@@ -58,32 +58,55 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Testing User Stories
 
-`First Time Visitors`
+
+* Client goals
+    - To have an online presence.
+    - Display a wide range of information on the site like: products, projects, services.
+    - Increase traffic to a physical site.
+    - Increase interactions with customers via social media and contact form.
+
+* First time Visitor goals
+    - Being able to navigate the site easily.
+    - Being able to access the menu and pages including contact details.
+    - Find out about products and services.
+
+* Returning visitor goals.
+    - Find out about new services, products and projects.
+    - To be able to access the company's social media sites and the quotation form in case they want to send new requests.
+
+* Frequent visitor goals
+    - Using the webshop to click and order products they liked before.
+
+
+`Client Goals` 
 
 | Goals | How are they achieved? | Image |
 | :--- | :--- | :--- |
 | To have an online presence. | I hae achieved this by creating this site. | [Online-presence](assets/images/readme/index-page-desktop.png)
 | Display a wide range of information on the site like: products, projects, services. | I have made every effort to provide useful information about the company, I have achieved this by showcasing the features and telling more about it in the About us section  | [About-us image](assets/images/readme/about-page-desktop.png) |
-| As a first time user, I want to be able to sign up to the site and create a profile | Users can create their own profile for the site by using the sign up page. Links to the sign up page are included on the navbar, and there is also a button to redirect users to the sign up page on the 404 page if they are not logged into an account on the site. | ![sign up link](documentation/testing/signup-user.png) |
-| As a first time user, I want to receive feedback that my profile has successfully been created | :--- | :--- |
+| Increase traffic to a physical site | Simply with the online presence and with social marketing campaigns I can achieve this goal| n/a |
+| Increase interactions with customers via social media and contact form | I have achieved this goal via providing social media platform links in the footer and a contact form in the web application | [footer](assets/images/readme/footer.png) |
 
-`Registered/Returning Visitors`
+`First time visitor goals`
 
 |  Goals | How are they achieved? | Image |
 | :--- | :--- | :--- |
-| As a returning/registered user, I want to be able to log in to my account | The Navbar has a login link | ![Login user link](documentation/testing/login-user.png) |
-| As a returning/registered user, I want to be able to view all Threads | Users can view all threads by using the navbar link | :--- |
-| As a returning/registered user, I want to be able to create a new post  | :--- | :--- |
-| As a returning/registered user, I want to be able to flag offensive posts | :--- | :--- |
-| As a returning/registered user, I want to be able to reply to posts | :--- | :--- |
+| Being able to navigate the site easily | I have achieved this goal by implementing a navigation bar and a mobile menu | [navigation bar](assets/images/readme/burnandbeyonddesktopnavbar.png) |
+| Being able to access the menu and pages including contact details. | Apart from having a nav bar, I have achieved this goal with providing a contact us section on each page | [contact-us](assets/images/readme/contact-us-section-with-footer.png) |
+| Find out about products and services. | I achieved this goal by showcasing the products and services on the index page [Online-presence](assets/images/readme/index-page-desktop.png) and providing a link to the webshop as well | [webshop](assets/images/readme/etsy-webshop-full-page.png) |
 
-`Admin User`
+`Returning visitor goals`
 
 | Goals | How are they achieved? | Image |
 | :--- | :--- | :--- |
-| As an admin user, I want to be able to view flagged posts | :--- | :--- |
-| As an admin user, I want to be able to delete messages that have been flagged that are offensive | :--- | :--- |
-| As an admin user, I want to be able to unflag posts that are not offensive | :--- | :--- |
+| Find out about new services, products and projects | This goal could be achieved with updating the new products on the index page and by visiting the webshop | n/a|
+| To be able to access the company's social media sites and the quotation form in case they want to send new requests. | This goal is fulfilled by having a contact form and all of the contact information showed on the web application | n/a |
+
+`Frequent visitor goals`
+
+| Goals | How are they achieved? | Image |
+| :--- | :--- | :--- |
+| Using the webshop to click and order products they liked before. | This goal is achieved by a fully functioning 3rd party webshop provider I have linked in the nav bar | n/a |
 
 - - -
 
@@ -92,17 +115,15 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 Full testing was performed on the following devices:
 
 * Laptop:
-  * Macbook Pro 2021 14 inch screen
+  * hp pavilion 15" laptop
 * Mobile Devices:
   * iPhone 13 pro.
-  * iPhone 11 pro.
-  * Phone X.
+  * Samsung galaxy S10.
+  * Samsung galaxy A22.
 
 Each device tested the site using the following browsers:
 
 * Google Chrome
-* Safari
-* Firefox
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes.  
 
@@ -110,43 +131,28 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | `Navbar` |
 | Site logo | Redirects to the home page | Click logo |  Redirects to home page | Pass |
-| Site Name | Redirects to home page | Click site name | Redirects to home page | Pass |
 | Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
-| Login Link (user not logged in) | Redirect to Login page | Click log in link | Redirected to log in page | Pass |
-| Sign up Link (user not logged in)  | Redirect to Sign up page | Click sign up link | Redirected to sign up page | Pass |
-| View all posts link | Redirects the user to the all threads page | Click view all posts link | Redirected to all posts page | Pass |
-| Admin View | Redirects to the admin view page | Click admin view link | Redirected to admin view page | Pass |
-| Logout link (user logged in) | User will be logged out | Click log out link| Redirected to home page - login link available | Pass |
+| About Link | Redirects to the About page | Click About link | Redirects to About page | Pass |
+| Gallery Link | Redirects to the Gallery page | Click Galley link | Redirects to Gallery page | Pass |
+| Webshop Link | Redirects to the Etsy webshop page in a new window | Click Webshop link | Redirects to the Etsy webshop page in a new window | Pass |
+| Contact Link | Redirects to the Contact page | Click Contact link | Redirects to the Contact page | Pass |
 | `Home Page` |
-| View threads button | Redirects to the threads page | Click button | Redirected to the thread | Pass |
-| Start a new thread button | Modal popup to create new thread | Click button | New thread modal popped up | Pass |
-| `Login Page` |
-| Form - link to sign up page | Redirects user to sign in page | Click link | Redirected to sign up page | Pass |
-| Form - Submission with no information | User prompted to fill in information | clicked submit button with no fields filled out | Form highlighted first empty field | Pass |
-| `Signup Page` |
-| Form - Submission with no information | User prompted to fill in information | clicked submit button with no fields filled out | Form highlighted first empty field | Pass |
-| `New Post Page` |
-| --- | --- | --- | --- | --- |
-| `New Thread Page` |
-| --- | --- | --- | --- | --- |
-| `Threads Page` |
-| --- | --- | --- | --- | --- |
-| `Admin Posts Page` |
-| --- | --- | --- | --- | --- |
-| `Privacy Policy Page` |
-| Link to Terms & Conditions Page | Redirects user to the Terms & Conditions page | Click link | Redirected to the terms & conditions page | Pass |
-| Get Safe Online link | Redirects the user to the get safe online website in a new browser tab | Click link | site opens, but in same browser tab | Fail |
-| Link to Rocket Lawyer site in Attribution section | User is taken to the Rocket Lawyer site in a new browser tab | Click link | Rocket Lawyer site opens, but in same tab | Fail |
-| `Terms and Conditions Page` |
-| Link to Rocket Lawyer site in Attribution section | User is taken to the Rocket Lawyer site in a new browser tab | Click link | 404 page opens | Fail |
-| `404 Page` |
-| (User Logged in) Home Button | User will be redirected to the home page | Click home button | Redirected to the home page | Pass |
-| (Guest User) Login Button | User redirected to the login page | Click login button | Redirected to the login page | Pass |
-| (Guest User) Sign Up Button | User redirected to the sign up page | Click sign up button | Redirected to sign up page | Pass |
-| `Footer` |
-| Footer - Join now button | Redirects user to the sign up page | Click button | Redirected to sign up page | Pass |
-| Footer - Social media links | Opens new tab to the social media site | Clicked each icon | New tabs opened for each site | Pass |
-| Footer - Privacy Policy link | Redirects to the privacy policy page | Clicked link | Redirected to privacy policy page | Pass |
-| footer - Terms and conditions link | Redirects to the terms and conditions page | Clicked link | Redirected to terms and conditions page | Pass |
+| Hero video | Plays a hero video | Testing by loading the page | The hero video plays | Pass |
+| Images hover effect | When the mouse is above the images the border styling changes | Testing by hovering above the pictures | The boarders behaving as expected | Pass |
+| Fixed materials background picture | As the page scrolling the background picture remains "fixed" | Testing by scrolling the page | The background picture behaves as expected | Pass |
+| Contact button above the footer | Redirects to the contact page | Click button | Redirects to the contact page | Pass |
+| Footer social-media links | The links open the correcponding social-media platform page in a new window | Click button | All of the links open the correcponding social-media platform page in a new window | Pass |
+| `About Page` |
+| Contact button above the footer | Redirects to the contact page | Click button | Redirects to the contact page | Pass |
+| Footer social-media links | The links open the correcponding social-media platform page in a new window | Click button | All of the links open the correcponding social-media platform page in a new window | Pass |
+| `Gallery Page` |
+| Contact button above the footer | Redirects to the contact page | Click button | Redirects to the contact page | Pass |
+| Footer social-media links | The links open the correcponding social-media platform page in a new window | Click button | All of the links open the correcponding social-media platform page in a new window | Pass |
+| `Webshop Page` |
+| Webshop Link | Redirects to the Etsy webshop page in a new window | Click Webshop link | Redirects to the Etsy webshop page in a new window | Pass |
+| `Contact Page` |
+| Quotation form filling up | The form would not let you to send information with missing contact information | Tryed to skip different contact information but the form would not let the customer submit the form with the missing information or incorrect emal address format. Works as expected | Pass |
+| Quotation form submit | Collects quotations and questions from customers | Filling the form up and clicking Submit | Due to the lack of Back and knowledge this feature does not work | Fail |
+| Footer social-media links | The links open the correcponding social-media platform page in a new window | Click button | All of the links open the correcponding social-media platform page in a new window | Pass |
 
 Back to [README.md](README.md)

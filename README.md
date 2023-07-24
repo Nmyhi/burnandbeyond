@@ -252,6 +252,8 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 
 ## Testing
 
+I have created the full testing documentation which collects all the information into a test sheet. [Testing documentation](testing.md)
+
 ### Validation
 
 I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also validated the my own style.css with the CSS Validator.
@@ -264,6 +266,12 @@ I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also
 
 ### Fixed Bugs
 
+* Issue 1:
+  * The hero image on the gallery page has got a way too high resolution which caused a long page load time. This issue has been solved by resizing the image.
+
+* Issue 2:
+  * The hero video on the index page was loading too slow due to hi resolution video format. This issue has been solved by resizing the video .
+
 ### Known Issues
 
 * Issue 1:
@@ -275,6 +283,8 @@ I used the W3C Markup Validation Service on all pages of Burn and Beyond. I also
   * The materials fixed background picture appears incorrectly on iphone devices.
 
   <img src="assets/images/readme/iphone-bug2.jpg" height="640" width="312" alt="materials background issue">
+
+These known issues will remain unsolved for know due to the lack of knowledge but in the future I want the site to be fully functioning on every devices.
 
 ### Testing User Stories
 
