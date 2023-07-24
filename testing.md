@@ -42,8 +42,6 @@ Each page has been inspected using google chrome developer tools to ensure that 
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
-### Desktop Results
-
 * Index Page
   ! The Index page Lighthouse results can be found here [Index Page Lighthouse](assets/images/readme/indexpage-lighthouse.png)
 
@@ -55,28 +53,6 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
   
 * Contact Page
   ! The Contact page Lighthouse results can be found here [Contact Page Lighthouse](assets/images/readme/contactpage-lighthouse.png)
-  
-### Mobile Results
-
-* Index Page
-  ![Index Page lighthouse testing mobile](documentation/lighthouse/index-lh-mobile.png)
-
-* Login Page
-  ![Login Page Lighthouse testing mobile](documentation/lighthouse/login-lh-mobile.png)
-  
-* Sign Up Page
-  ![Sign Up Page Lighthouse testing mobile](documentation/lighthouse/signup-lh-mobile.png)
-  
-* All Threads Page
-  ![All threads page lighthouse testing mobile](documentation/lighthouse/allthreads-lh-mobile.png)
-  
-* Privacy Policy Page
-  ![Privacy policy page lighthouse testing mobile](documentation/lighthouse/privacy-lh-mobile.png)
-  
-* Terms and conditions Page
-  ![Terms and conditions page lighthouse testing mobile](documentation/lighthouse/terms-lh-mobile.png)
-
-- - -
 
 ## MANUAL TESTING
 
@@ -86,7 +62,8 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 | Goals | How are they achieved? | Image |
 | :--- | :--- | :--- |
-| As a first time user, I want to be able to easily navigate the site | We have made every effort to make navigating the site easy for users, regardless of their language. We have achieved this by using icons to represent links. Links for navigation are included in the navbar.  | ![Navbar](documentation/navbar-desktop.png) |
+| To have an online presence. | I hae achieved this by creating this site. | [Online-presence](assets/images/readme/index-page-desktop.png)
+| Display a wide range of information on the site like: products, projects, services. | I have made every effort to provide useful information about the company, I have achieved this by showcasing the features and telling more about it in the About us section  | [About-us image](assets/images/readme/about-page-desktop.png) |
 | As a first time user, I want to be able to sign up to the site and create a profile | Users can create their own profile for the site by using the sign up page. Links to the sign up page are included on the navbar, and there is also a button to redirect users to the sign up page on the 404 page if they are not logged into an account on the site. | ![sign up link](documentation/testing/signup-user.png) |
 | As a first time user, I want to receive feedback that my profile has successfully been created | :--- | :--- |
 
